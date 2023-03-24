@@ -1,0 +1,405 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif;
+
+}
+
+.encabezado{
+    background: #1F172F;   
+    padding: 21px 200px 27px;
+    display: flex;
+    width: 79%;
+    height: 29px; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo{
+    height: 83px;
+    margin-left: 118px;
+}
+
+.text{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.linea{
+    width: 25px;
+    height: 3px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a{
+    margin-left: 33px;
+}
+
+nav button{
+    color: white;
+    background: linear-gradient(90deg, #7946d5 0%, #5a55d5 40%, #0f79d5 100%);
+    width: 150px;
+    height: 62px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+
+.superior{
+    display: flex;
+    flex-direction: row;
+    height: 800%;
+}
+
+.supizq{
+    background: #2e2550;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 915px;
+    justify-content: center;
+    padding-left: 240px;
+}
+
+.superior .supizq h1{
+    font-size: 99px;
+    color: white;
+    padding-top: 39px;
+    padding-left: 118px;
+}
+
+.superior .supizq p{
+    font-size: 27px;
+    color: white;
+    padding-left: 118px;
+    margin-top: 68px;
+    margin-bottom: 30px;
+}
+
+.supder{
+    background-image: url(/images/Hojas_otoño.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 60%;
+    height: 915px;
+    background-size: 100% 100%;
+}
+.superior .supder img{
+    width: 320px;
+    height: 639px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 193px 116px 116px 190px;
+    opacity: 0.999;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    border: 2px solid #524c6d;
+    padding: 5px;
+    width: 439px;
+    height: 68px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-left: 118px;
+}
+.buttonsup1{
+    font-size: 22px;
+    width: 416px;
+    height: 64px;
+    color: white;
+    color: #ec64aa;
+    border: 2px;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.buttonsup2{
+    font-size: 22px;
+    width: 355px;
+    height: 64px;
+    color: white;
+    background-color: #2e2550;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118px;
+    font-size: 62px;
+    color: #f41486;
+    margin-bottom: 10px;
+}
+
+.abajo .titulo3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70px;
+    font-size: 62px;
+    color: white;
+    padding: 30px;
+}
+.abajo .titulo3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color: rgb(209, 207, 207);
+}
+
+.computer{
+    padding-top: 33px;
+    width: 538px;
+    height: 319px;
+    margin-left: -55px;
+}
+
+.alpha{
+    font-size: 43px;
+    padding-top: 33px;
+    padding-bottom: 18px;
+    font-weight: normal;
+}
+.alpha2{
+    width: 888px;
+    font-size: 22px;
+}
+
+.marquetin{
+    font-weight: normal;
+    font-size: 20px;
+    color: #f41486;
+}
+
+.paginamarquetin{
+    padding-left: 2px;
+}
+
+.paginamarquetin li{
+    padding-left: 15px;
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 475px;
+    background-color: #f1f2f7;
+    gap: 40px;
+    padding-top: 81px;
+    padding-bottom: 49px;
+}
+
+#contenedor-centro{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 50%;
+    gap: 100px;
+}
+.abajo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 858px;
+    background-color: #1e172f;
+    padding-top: 15px;
+}
+
+.cuadros{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 31px; 
+    height: 100vh;     
+    width: 319px;
+    margin-bottom: 45px;
+}
+
+.cuadro{
+    width: 319px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 6px;
+    flex-direction: column;
+    height: 510px;
+    text-align: center;
+}
+
+.Lite{
+    color: #f41486;
+    margin-bottom: 15px;
+}
+
+.Standard{
+    margin-bottom: 15px;
+}
+
+.circulo{
+    width: 18px;
+    height: 18px;
+}
+
+.imagecuadro{
+    padding-top: 35px;
+}
+
+.button1{
+    color: white;
+    background: #eb63a9;
+    font-size: 18px;
+    width: 147px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.button2{
+    color: white;
+    font-size: 18px;
+    background: #2e2550;
+    width: 147px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.background{
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding-top: 1px;
+}
+
+.nulla{
+    margin-bottom: 35px;
+}
+.medio h2{
+    color: #c2518b;
+}
+
+.medio h3{
+    color: #ee439c;
+}
+
+.medio p{
+   color: #7e7e81;
+}
+.medio li{
+    color: #7e7e81;
+    font-size: 18px;
+    list-style-type: "⭕";
+}
+span{
+    font-size: 30px;
+}
+
+.PYP{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.letra1{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: #f5f5f5;
+    width: 299px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.letra2{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: #f5f5f5;
+    width: 299px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.letra3{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: #f5f5f5;
+    width: 295px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.estrella{
+    list-style:"★  ";
+    color: #ec64aa;
+
+}
+
+.pestrella{
+    color: black;
+}
+
+.Cool{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.estrella1{
+    list-style:"★  ";
+    color: black;
+}
+
+.chulo{
+    list-style: "✔  ";
+    color: #ec64aa;
+}
+
+.chulo1{
+    list-style: "✔  ";
+    color: black;
+}
+
+.equis{
+    list-style: "✖  ";
+    color: black;
+}
+footer{
+    background: #ffff;
+    height: 79px;
+    width: 100%;
+    color: #737375;
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%
+  }
+
+footer span{
+    font-size: 18px;
+    color: #ec64aa;
+    width: 188px;
+}
+
+.Redes{
+    width: 188px;
+    padding-left: 100px;
+}
+
